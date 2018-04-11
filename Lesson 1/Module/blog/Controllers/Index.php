@@ -15,8 +15,6 @@ class Index extends AbstractController {
 
 	public function index(){
 
-		
-		$this->view->user = $this->model->getUsers();
-		$this->view->render($this, 'index');
+				$this->view->render($this, 'index');
 	}
 }
